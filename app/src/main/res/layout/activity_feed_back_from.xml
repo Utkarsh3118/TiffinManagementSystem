@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Customer.FeedBackFrom">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            app:contentInsetStartWithNavigation="0dp"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"></androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Comment "
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:textColor="@color/blue_grey_800"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        />
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/spacing_xlarge"
+        android:textColor="@color/grey_60"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/spacing_medium"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="How you rate this system ? "
+    android:textColor="@color/blue_grey_800"
+    android:layout_marginLeft="@dimen/spacing_large"
+    android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+/>
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/spacing_xlarge"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        android:background="@drawable/btn_rounded_accent"
+        android:gravity="center"
+        android:text="Submit" />
+</LinearLayout>

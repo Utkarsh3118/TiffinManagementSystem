@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.Admin.MainActivity">
+
+ <item
+     android:id="@+id/action_add_vendor"
+     android:orderInCategory="100"
+     android:title="Add Vendor"
+     app:showAsAction="never" />
+
+
+ <item
+     android:id="@+id/action_see_feedback"
+     android:orderInCategory="100"
+     android:title="See Feedback"
+     app:showAsAction="never" />
+
+
+ <item
+      android:id="@+id/action_logout"
+      android:orderInCategory="100"
+      android:title="Logout"
+      app:showAsAction="never" />
+
+</menu>
+

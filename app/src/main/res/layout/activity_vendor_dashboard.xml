@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="Vendor Panel"
+            android:paddingLeft="@dimen/spacing_xxxlarge"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentInsetStartWithNavigation="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/spacing_large"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="@dimen/spacing_large"
+        android:orientation="horizontal"
+       >
+        <LinearLayout
+            android:id="@+id/lyt_addmenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/menu"
+                android:tint="@color/blue_grey_800"
+                />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add Menu"
+                    android:textStyle="bold"
+                    android:minLines="2"
+                    android:padding="@dimen/spacing_medium"
+                    android:gravity="center"
+                    android:textColor="@color/blue_800"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+        <LinearLayout
+            android:id="@+id/lyt_addtimezone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/timezone"
+                android:tint="@color/blue_grey_800"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add TimeZone"
+                android:gravity="center"
+                android:minLines="2"
+                android:padding="@dimen/spacing_medium"
+                android:textStyle="bold"
+                android:textColor="@color/blue_800"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/spacing_large">
+        <LinearLayout
+            android:id="@+id/lyt_vieworder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/order"
+                android:tint="@color/blue_grey_800"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Order"
+                android:minLines="2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="@dimen/spacing_medium"
+                android:textColor="@color/blue_800"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+        <LinearLayout
+            android:id="@+id/lyt_adddeliveryboy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/delivery_boy"
+                android:tint="@color/blue_grey_800"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Delivery Boy"
+                android:gravity="center"
+                android:minLines="2"
+                android:padding="@dimen/spacing_medium"
+                android:textStyle="bold"
+                android:textColor="@color/blue_800"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

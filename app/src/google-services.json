@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92369320061",
+    "firebase_url": "https://tiffinmanagementsystem-ad924.firebaseio.com",
+    "project_id": "tiffinmanagementsystem-ad924",
+    "storage_bucket": "tiffinmanagementsystem-ad924.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92369320061:android:20a92c124368abbc741914",
+        "android_client_info": {
+          "package_name": "com.USRT.tiffinmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92369320061-q7ltjhcebe564sdo5c4jlkvha6ahq09q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.USRT.tiffinmanagementsystem",
+            "certificate_hash": "024577f76640ba47b0cd918039b8184c57dc5f17"
+          }
+        },
+        {
+          "client_id": "92369320061-cdtm83t4jjtap8na4fql2b1f31pdr1n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwjWtuw34xWCrJrzkkr-5WBdbpbrB4grk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92369320061-cdtm83t4jjtap8na4fql2b1f31pdr1n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
